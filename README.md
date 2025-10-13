@@ -1,4 +1,4 @@
-# Session ID - Session Title
+# BTM163 - Turning testing into value with SAP Cloud ALM and SAP Test Automation
 
 ## Description
 
