@@ -63,6 +63,68 @@ In this exercise, we will create a test case in SAP Cloud ALM, that is then reco
 
 6. Close the scanning.
 
+## Exercise 1.5 - Add the module to the Test Case and adapt it
+
+1. Under **Standard objects** tab on the left panel, search for *OpenURL*, click on + icon next to the module as shown to add it to the test case.
+2. Move the step under the folder **Precondition** and edit the name of the Test step to “Launch Fiori”.
+3. Under **Modules** tab on the left panel, search for your newly created module *S/4HANA Fiori Login*. Click on + icon next to the module and move it below the *Launch Fiori* step.
+4. Pass the value of the user by adding the parameter *Username* as shown below. Enter the password and set the Data type as “Password” for the encryption.
+5. Click on **Save** and then on button **Run** to run these two steps for a dry run until login.
+6. Once login is completed, eave the browser window open - you need it for the next exercise.
+
+## Exercise 1.6 Re-Scanning of Modules to modify or add extra fields
+
+1. Click on *Create Module* button on the top left menu. In Scan application screen, select the S/4HANA screen.
+2. Capture the *All* dropdown menu, rename the module to "Fiori Home" and save the module.
+3. Run this step to select the *Apps* in the dropdown. Observe the UI change after selecting Apps from the dropdown; “Search text box” properties changes after selecting the dropdown option. 
+4. Search for the newly created module *Fiori_Home*, click on Jump to Module next to the + icon.
+5. Module will open in new tab will open, click then on Rescan. (Fiori web page should be kept in the state where you want to capture the new fields)
+6. Add the required fields from the page and save it. Once saved, close the scan window and refresh the module page.
+7. Create a folder and rename it as *Create Sales Quotation* under **Process folder** in the test case.
+8. Add the newest created module. Rename the test step to *Search for the Application in Fiori Home Page* and enter the following values:
+   <br> **Menu-Dropdown:** Apps
+   <br> **Search In: "Apps":** Manage Sales Quotations
+   <br> **Search:** {Click}
+9. Do a run for this test step.
+10. Click on Create Module button, select **Web Application** and click **Start Scan**.
+11. Select again the S/4HANA system browser window and click on button **Scan**.
+12. Select the button *Create Quotation* in the screen, rename the module to *Manage Sales Quotation - Home Screen* and save.
+13. Search for the module in the test case screen and add it.
+14. Add {Click} as Input to the **Create Quotation button**.
+15. Do a dry run for this test step.
+
+## Exercise 1.7 - Record steps for Quoation creation
+
+1. Once the next page is loaded, click on button **Create Module**, select Web Application, select the S/4HANA system and click on **Scan**.
+2. Select the following controls on this page:
+    <br> **Quotation Type, Sales Organization, Distribution Channel, Division, Sales Office, Sales Group**
+3. Select the *(iframe) Application*; the properties of it appear on the right side. Scroll down to the property **Id** and change it to “__container*-iframe”. The “*” is needed to make the property flexible because the number changes whenever the iframe is refreshed or loaded.
+4. Remember the module name and save the module.
+5. Add this module now to the test case and insert the following values in the test step
+6. “X” can be used instead of {Click} for Buttons & Links.
+7. Do a dry run for this test step.
+8. Once the next page is loaded, follow the process of creating a new module for the next screen
+    <br> - Click on Create Module button
+    <br> - Select Web Application
+    <br> - Select the browser window with the S/4HANA system
+    <br> - Select the controls you need in this page: **Input Fields:** Quotation, Sold-to-Party, Ship-to-Party, Cust. Reference, Cust. Ref. Date, Valid To, **Tables:** All Items, **Buttons:** Save, Cancel
+9. Select the (iframe) for *Application* and scroll the properties on the right side up to *Id'* property
+10. Edit the *Id* property to “__container*-iframe” to make it independent
+11. Save the module. Remember the name of the modules to search later for it.
+12. Add the new module to the test case and insert the following values to the step:
+    - **Sold-to-Party:**
+    - **Ship-to-Party:**
+    - **Cust. Reference:**
+    - **Save:**
+
+## Exercise 1.8 Dynamic Placeholders & Buffers for future use (e.g. to use it on following test case)
+
+1. Change the value of **Valid To** to: *{Date[][+1y][yyyy.MM.dd]}* This will replace a static date value, which makes the test case independent from the date of execution. It will now always use todays date + one year.
+2. As next step, we are going to buffer the output data for future use. For this, we are using the command {XB[Buffer Name]} - X buffers are used to verify the pattern and buffer the required section.
+3. Enter in the **SAP Statusbar** value: Quotation {XB[QuotationID]} hase been saved.
+4. Try now for a complete run of Create Sales Quotation test case.
+
+5. Are you getting the sync error while Navigating between the pages? The next exercise will solve that issue ;-)
 
 ## Summary
 
