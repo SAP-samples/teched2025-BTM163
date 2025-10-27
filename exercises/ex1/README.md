@@ -79,12 +79,12 @@ Save your script on the upper right with a click on button **Save**
     <br>![](/exercises/ex1/images/TTA_Enter_Login_Data.png)
 5. Click on **Save**, select the Fiori Login step and click on button **Run** to run only these steps for a dry run until login. You need to focus on the S/4HANA logon window for this.
 6. Once login is completed, leave the browser window open - you need it for the next exercise.
-<!--
+
 ## Exercise 1.6 - Creating Modules for Application search in Fiori homepage
 
 1. Click on *Create Module* button on the top left menu. In Scan application screen, select the S/4HANA screen.
-2. Capture the search button and the *All* dropdown menu, rename the module to "Fiori Home" and save the module.
-3. Run this step to select the *Apps* in the dropdown. Observe the UI change after selecting Apps from the dropdown; “Search text box” properties changes after selecting the dropdown option.
+2. Capture the tile **Sales Processing**, rename it to *XXX Select tile* (replace XXX with your user number) and save the module.
+3. Run this step to click on the Sales Processing tile.
 
 ## Exercise 1.7 - Re-Scanning of Modules to modify or add extra fields
 
