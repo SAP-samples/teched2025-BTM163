@@ -15,8 +15,8 @@ Reusable test steps are sets of steps that you can reuse across multiple test ca
 4. In the following dialog, select the option "Manually set up business parameters later" and click button "Apply".<br>![](/exercises/ex4/images/CALM_RTB_03.png)
 5. The folder and its content is now migrated to a Reusable Test Block. You can access it via click on the options button (with the three dots) and "Jump to reusable test step"<br>![](/exercises/ex4/images/CALM_RTB_04.png)
 6. The reusable Test Block will open in a new tab. Select the folder and click again the options button (with the three dots). Click on "Create parameter (child to selected)".<br>![](/exercises/ex4/images/CALM_RTB_05.png)
-7. Pass the values in the parameters instead of in the Test steps to make it independent.<br>![](/exercises/ex4/images/CALM_RTB_06.png)
-8. Go to Test Steps and enter the parameter name in curly brackets: {PL[<Business Parameter Name>]}.
+7. Go to Test Steps and enter the parameter name in curly brackets: {PL[<Business Parameter Name>]}.<br>![](/exercises/ex4/images/CALM_RTB_06.png)
+8. Pass the values in the parameters instead of in the Test steps to make it independent.
 <br>![](/exercises/ex4/images/CALM_RTB_07.png)
 ## Exercise 4.2 Creation of Test Data Set
 
