@@ -28,7 +28,7 @@ In this exercise, we will create a test case in SAP Cloud ALM, that is then reco
 
 1. Before starting any recording in TTA, the Launcher needs to be installed. For this press the **Download** button at the upper right corner and click then on Download.
    <br>![](/exercises/ex1/images/Launcher_Setup.png)
-3. Run the Launcher Setup and wait for it to completed. Close the success message
+3. Run the Launcher Setup from Downloads and wait for it to completed. Close the success message
 
 ## Exercise 1.3 - Initial Setup of the automated test case
 
