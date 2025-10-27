@@ -61,12 +61,12 @@ Save your script on the upper right with a click on button **Save**
    <br>**Password:** Acce$$teched25
    
 6. The XScan application as shown in the below screenshot appears. Select the browser window with the opened S/4HANA system and press button **Scan**.
-   <br>![](/exercises/ex1/images/TTA_XScan_App_Select.png)
+   <br>![](/exercises/ex1/images/TTA_Xscan_Select_App.png)
 
 7. Capture the fields *User Name*, *Password* and the button *Log On*. Mark the title of the Log On button more dynamic and unique and rename the module accordingly so that you can easily find it later in the module area (e.g. *S/4HANA Fiori Login*)
    <br>![](/exercises/ex1/images/TTA_Capture_Login&Rename.png)
 
-8. Close the scanning.
+8. Click on **Finish Screen** and close the scanning.
 
 ## Exercise 1.5 - Creating Login flow as Precondition
 
