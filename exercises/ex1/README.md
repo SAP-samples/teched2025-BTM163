@@ -44,7 +44,7 @@ In this exercise, we will create a test case in SAP Cloud ALM, that is then reco
   	<br> - Postcondition  *(Contains post validation steps (Ex: Logout & Close browser))*
 <br>![](/exercises/ex1/images/TTA_Create_Folders.png)
 
-## Exercise 1.4 - Create new module for the Login to S/4HANA system
+## Exercise 1.4 - Capturing the Login screen fields (Attributes) of S/4HANA system
 
 1. Click to open [SAP S/4HANA system](https://btm163-7rq549xc.eu10-004.alm.cloud.sap/launchpad#Shell-home) and follow the steps below:
    # add infos here
@@ -63,7 +63,7 @@ In this exercise, we will create a test case in SAP Cloud ALM, that is then reco
 
 6. Close the scanning.
 
-## Exercise 1.5 - Add the module to the Test Case and adapt it
+## Exercise 1.5 - Creating Login flow as Precondition
 
 1. Under **Standard objects** tab on the left panel, search for *OpenURL*, click on + icon next to the module as shown to add it to the test case.
 2. Move the step under the folder **Precondition** and edit the name of the Test step to “Launch Fiori”.
@@ -71,27 +71,32 @@ In this exercise, we will create a test case in SAP Cloud ALM, that is then reco
 4. Pass the value of the user by adding the parameter *Username* as shown below. Enter the password and set the Data type as “Password” for the encryption.
 5. Click on **Save** and then on button **Run** to run these two steps for a dry run until login.
 6. Once login is completed, eave the browser window open - you need it for the next exercise.
+<img width="470" height="25" alt="image" src="https://github.com/user-attachments/assets/c73588b6-6f54-4eb2-a4c2-b340e9f74453" />
+<img width="470" height="25" alt="image" src="https://github.com/user-attachments/assets/e02a2263-fe94-4570-bfbb-22221334593d" />
 
-## Exercise 1.6 Re-Scanning of Modules to modify or add extra fields
+## Exercise 1.6 Creating Modules for Application search in Fiori homepage
 
 1. Click on *Create Module* button on the top left menu. In Scan application screen, select the S/4HANA screen.
 2. Capture the *All* dropdown menu, rename the module to "Fiori Home" and save the module.
-3. Run this step to select the *Apps* in the dropdown. Observe the UI change after selecting Apps from the dropdown; “Search text box” properties changes after selecting the dropdown option. 
-4. Search for the newly created module *Fiori_Home*, click on Jump to Module next to the + icon.
-5. Module will open in new tab will open, click then on Rescan. (Fiori web page should be kept in the state where you want to capture the new fields)
-6. Add the required fields from the page and save it. Once saved, close the scan window and refresh the module page.
-7. Create a folder and rename it as *Create Sales Quotation* under **Process folder** in the test case.
-8. Add the newest created module. Rename the test step to *Search for the Application in Fiori Home Page* and enter the following values:
+3. Run this step to select the *Apps* in the dropdown. Observe the UI change after selecting Apps from the dropdown; “Search text box” properties changes after selecting the dropdown option.
+
+## Exercise 1.7 - Re-Scanning of Modules to modify or add extra fields
+
+1. Search for the newly created module *Fiori_Home*, click on Jump to Module next to the + icon.
+2. Module will open in new tab will open, click then on Rescan. (Fiori web page should be kept in the state where you want to capture the new fields)
+3. Add the required fields from the page and save it. Once saved, close the scan window and refresh the module page.
+4. Create a folder and rename it as *Create Sales Quotation* under **Process folder** in the test case.
+5. Add the newest created module. Rename the test step to *Search for the Application in Fiori Home Page* and enter the following values:
    <br> **Menu-Dropdown:** Apps
    <br> **Search In: "Apps":** Manage Sales Quotations
    <br> **Search:** {Click}
-9. Do a run for this test step.
-10. Click on Create Module button, select **Web Application** and click **Start Scan**.
-11. Select again the S/4HANA system browser window and click on button **Scan**.
-12. Select the button *Create Quotation* in the screen, rename the module to *Manage Sales Quotation - Home Screen* and save.
-13. Search for the module in the test case screen and add it.
-14. Add {Click} as Input to the **Create Quotation button**.
-15. Do a dry run for this test step.
+6. Do a run for this test step.
+7. Click on Create Module button, select **Web Application** and click **Start Scan**.
+8. Select again the S/4HANA system browser window and click on button **Scan**.
+9. Select the button *Create Quotation* in the screen, rename the module to *Manage Sales Quotation - Home Screen* and save.
+10. Search for the module in the test case screen and add it.
+11. Add {Click} as Input to the **Create Quotation button**.
+12. Do a dry run for this test step.
 
 ## Exercise 1.7 - Record steps for Quoation creation
 
