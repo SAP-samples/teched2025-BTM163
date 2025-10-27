@@ -91,7 +91,7 @@ Save your script on the upper right with a click on button **Save**
    <br>![](/exercises/ex1/images/TTA_Quot_Start.png)
 
 
-## Exercise 1.8 - Record steps for Quoation creation
+## Exercise 1.7 - Record steps for Quoation creation
 
 1. Once the next page is loaded, click on button **Create Module**, select Web Application, select the S/4HANA system and click on **Scan**.
 2. Select the following controls on this page:
@@ -111,7 +111,7 @@ Save your script on the upper right with a click on button **Save**
 <br> - Select the browser window with the S/4HANA system
 <br> - Select the controls you need in this page: 
     - **Input Fields:** Sold-to-Party, Ship-to-Party, Cust. Reference, Cust. Ref. Date, Valid To
-    - **Tables:** Material, Quantity
+    - **Tables:** All Items
     - **Buttons:** Save, Cancel
 9. Select the (iframe) for *Application* and scroll the properties on the right side up to *Id'* property
 10. Edit the *Id* property to “__container*-iframe” to make it independent
@@ -125,6 +125,13 @@ Save your script on the upper right with a click on button **Save**
     - **Material:** DM_210
     - **Quantity:** 2
     - **Save:** {Click}
+   
+## Exercise 1.8 - Rescan Module
+1. After Quotation has been successfully saved, click on the last created module (Details of Quotation) and jump to the module
+ <br>![](/exercises/ex1/images/TTA_Jump_Module.png)
+2. Click on Rescan and scan the Save Button in the dialog window
+3. Save your changes, go back to your test steps and click refresh
+4. Set as value for the save button a X
 
 ## Exercise 1.9 - Dynamic Placeholders & Buffers for future use (e.g. to use it on following test case)
 
