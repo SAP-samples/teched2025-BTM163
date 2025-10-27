@@ -99,22 +99,32 @@ Save your script on the upper right with a click on button **Save**
 3. Select the *(iframe) Application*; the properties of it appear on the right side. Scroll down to the property **Id** and change it to “__container*-iframe”. The “*” is needed to make the property flexible because the number changes whenever the iframe is refreshed or loaded.
 4. Remember the module name and save the module.
 5. Add this module now to the test case and insert the following values in the test step
+  - **Quotation Type:** QT
+  - **Sales Organization:** 1710
+  - **Distribution Channel:** 10
 6. “X” can be used instead of {Click} for Buttons & Links.
   <br>![](/exercises/ex1/images/TTA_Quot_Entry_Data.png)
 7. Do a dry run for this test step.
-8. Once the next page is loaded, follow the process of creating a new module for the next screen
-    <br> - Click on Create Module button
-    <br> - Select Web Application
-    <br> - Select the browser window with the S/4HANA system
-    <br> - Select the controls you need in this page: **Input Fields:** Quotation, Sold-to-Party, Ship-to-Party, Cust. Reference, Cust. Ref. Date, Valid To, **Tables:** All Items, **Buttons:** Save, Cancel
+8. Once the next page is loaded, follow the process of creating a new module for the next screen (you know already how it works :) )
+<br> - Click on Create Module button
+<br> - Select Web Application
+<br> - Select the browser window with the S/4HANA system
+<br> - Select the controls you need in this page: 
+    - **Input Fields:** Sold-to-Party, Ship-to-Party, Cust. Reference, Cust. Ref. Date, Valid To
+    - **Tables:** Material, Quantity
+    - **Buttons:** Save, Cancel
 9. Select the (iframe) for *Application* and scroll the properties on the right side up to *Id'* property
 10. Edit the *Id* property to “__container*-iframe” to make it independent
 11. Save the module. Remember the name of the modules to search later for it.
 12. Add the new module to the test case and insert the following values to the step:
-    - **Sold-to-Party:**
-    - **Ship-to-Party:**
-    - **Cust. Reference:**
-    - **Save:**
+    - **Sold-to-Party:** USCU-L-210
+    - **Ship-to-Party:** USCU-L-210
+    - **Cust. Reference:** XXX-Test Automation Ref *(replace XXX by your user number)*
+    - **Cust. Ref. Date:** *todays date*
+    - **Valid To:** *todays date + 7 days*
+    - **Material:** DM_210
+    - **Quantity:** 2
+    - **Save:** {Click}
 
 ## Exercise 1.9 - Dynamic Placeholders & Buffers for future use (e.g. to use it on following test case)
 
