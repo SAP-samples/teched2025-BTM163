@@ -21,6 +21,20 @@ Reusable test steps are sets of steps that you can reuse across multiple test ca
 ## Exercise 4.2 Creation of Test Data Set
 
 If you want to keep your data in cloud and you need to make periodic/regular update of those data using Automation, TTA have the inbuilt feature called Test Data set.
+To use test data in a test case, you need to link the two:
+1.In your test case, hover over the Value column of the line where you want to use test data. Then, select the  icon.
+
+Let's say your test case steers a text box called First name, and you want SAP Enterprise Continuous Testing by Tricentis to enter test data into this text box at runtime. In this case, hover over the Value column of First name.
+
+In the subsequent dialog, select Prefill expression values. Then, define the data you want to link:
+
+Specify your data set or subset, as well as the column that contains the data.
+
+Select Prefill values.
+
+To finalize the link, select Apply.
+
+And that's it! Your test data is now linked to this particular test action.
 
 
 
