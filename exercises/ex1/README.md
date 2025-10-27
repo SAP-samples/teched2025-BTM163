@@ -71,8 +71,6 @@ In this exercise, we will create a test case in SAP Cloud ALM, that is then reco
 4. Pass the value of the user by adding the parameter *Username* as shown below. Enter the password and set the Data type as “Password” for the encryption.
 5. Click on **Save** and then on button **Run** to run these two steps for a dry run until login.
 6. Once login is completed, eave the browser window open - you need it for the next exercise.
-<img width="470" height="25" alt="image" src="https://github.com/user-attachments/assets/c73588b6-6f54-4eb2-a4c2-b340e9f74453" />
-<img width="470" height="25" alt="image" src="https://github.com/user-attachments/assets/e02a2263-fe94-4570-bfbb-22221334593d" />
 
 ## Exercise 1.6 Creating Modules for Application search in Fiori homepage
 
