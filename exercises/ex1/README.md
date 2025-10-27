@@ -124,7 +124,7 @@ Save your script on the upper right with a click on button **Save**
     - **Valid To:** *todays date + 7 days*
     - **Material:** DM_210
     - **Quantity:** 2
-    - **Save:** {Click}
+    - **Save:** X
    
 ## Exercise 1.8 - Rescan Module
 1. After Quotation has been successfully saved, click on the last created module (Details of Quotation) and jump to the module
