@@ -88,6 +88,7 @@ Save your script on the upper right with a click on button **Save**
 3. Search for the module in the test case screen, add it and run this step to click on the Sales Processing tile.
 5. Repeat the steps 1-3 for tile **Manage Sales Quotation**, rename it to *XXX Manage Sales Quotation -Tile* (replace XXX with your user number).
 6. Repeat the steps 1-3 for button **Create Quotation** in the screen, rename the module to *Manage Sales Quotation - Home Screen* and save.
+   <br>![](/exercises/ex1/images/TTA_Quot_Start.png)
 
 
 ## Exercise 1.8 - Record steps for Quoation creation
