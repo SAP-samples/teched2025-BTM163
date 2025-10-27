@@ -72,28 +72,23 @@ Save your script on the upper right with a click on button **Save**
 
 1. Under **Standard objects** tab on the left panel, search for *OpenURL*, click on + icon next to the module as shown to add it to the test case.
 2. Move the step under the folder **Precondition** and edit the name of the Test step to “Launch Fiori”.
+3. Add the URL of S/4HANA system as value for URL.
     <br>![](/exercises/ex1/images/TTA_Module_OpenURL.png)
-3. Under **Modules** tab on the left panel, search for your newly created module *XXX S/4HANA Fiori Login*. Click on + icon next to the module and move it below the *Launch Fiori* step.
+4. Under **Modules** tab on the left panel, search for your newly created module *XXX S/4HANA Fiori Login*. Click on + icon next to the module and move it below the *Launch Fiori* step.
     <br>![](/exercises/ex1/images/TTA_Add_Module_Login.png)
-4. Enter the value of the user and the password and set the Data type for password to “Password” for the encryption. Select *'{Click}* as value for the Logon button.
+5. Enter the value of the user and the password and set the Data type for password to “Password” for the encryption. Select *'{Click}* as value for the Logon button.
     <br>![](/exercises/ex1/images/TTA_Enter_Login_Data.png)
-5. Click on **Save**, select the Fiori Login step and click on button **Run** to run only these steps for a dry run until login. You need to focus on the S/4HANA logon window for this.
-6. Once login is completed, leave the browser window open - you need it for the next exercise.
+6. Click on **Save**, select the Fiori Login step and click on button **Run** to run only these steps for a dry run until login. You need to focus on the S/4HANA logon window for this.
+7. Once login is completed, leave the browser window open - you need it for the next exercise.
 
 ## Exercise 1.6 - Creating Modules for Application search in Fiori homepage
 
 1. Click on *Create Module* button on the top left menu. In Scan application screen, select the S/4HANA screen.
 2. Capture the tile **Sales Processing**, rename it to *XXX Select Page* (replace XXX with your user number) and save the module.
-3. Run this step to click on the Sales Processing tile.
-4. Click again on *Create Module* button on the top left menu. In Scan application screen, select the S/4HANA screen.
-5. Capture the tile **Manage Sales Quotation**, rename it to *XXX Manage Sales Quotation -Tile* (replace XXX with your user number) and save the module.
-6. Run this step to click on the **Manage Sales Quotation tile.
-7. Click on Create Module button, select **Web Application** and click **Start Scan**.
-8. Select again the S/4HANA system browser window and click on button **Scan**.
-9. Select the button *Create Quotation* in the screen, rename the module to *Manage Sales Quotation - Home Screen* and save.
-10. Search for the module in the test case screen and add it.
-11. Add {Click} as Input to the **Create Quotation button**.
-12. Do a dry run for this test step.
+3. Search for the module in the test case screen, add it and run this step to click on the Sales Processing tile.
+5. Repeat the steps 1-3 for tile **Manage Sales Quotation**, rename it to *XXX Manage Sales Quotation -Tile* (replace XXX with your user number).
+6. Repeat the steps 1-3 for button **Create Quotation** in the screen, rename the module to *Manage Sales Quotation - Home Screen* and save.
+
 
 ## Exercise 1.8 - Record steps for Quoation creation
 
