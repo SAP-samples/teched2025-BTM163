@@ -18,7 +18,7 @@ Provide the exercise content here directly in README.md using [markdown](https:/
 
 - [Getting Started](exercises/ex0/)
 - [Exercise 1 - Creating an automated test case with TTA from SAP Cloud ALM](exercises/ex1/)
-    - [Exercise 1.1 - Creating an automated test case in SAP Cloud ALM and enter TTA](exercises/ex1#exercise-11-sub-exercise-1-description)
+    - [Exercise 1.1 - Creating an automated test case in SAP Cloud ALM and enter TTA](exercises/ex1#Summary)
     - [Exercise 1.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
 - 
 - [Exercise 2 - Design the Test Case in Tricentis Test Automation](exercises/ex2/)
