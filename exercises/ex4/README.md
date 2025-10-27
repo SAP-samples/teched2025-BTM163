@@ -17,7 +17,9 @@ Reusable test steps are sets of steps that you can reuse across multiple test ca
 
 ## Exercise 4.2 Creation of Test Data Set
 
-If you want to keep your data in cloud and you need to make periodic/regular update of those data using Automation, TTA have the inbuilt feature called Test Data set.
+If you want to keep your data in cloud and you need to make periodic/regular update of those data using Automation, TTA have the inbuilt feature called Test Data set.'
+For example, I need to save the quotation ID & Sales order number for further reference.
+
 
 
 
