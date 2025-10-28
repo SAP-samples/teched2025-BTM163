@@ -1,6 +1,6 @@
 # Exercise 2 - Best Practices for Automation
 
-In this exercise, we will create...
+In this exercise, you will apply best practices for automation using Tricentis Test Automation (TTA). You’ll learn how to enhance your automated test by introducing dynamic waits for improved stability and cardinality adjustments to optimize attribute reuse. In addition, you’ll follow best practices for naming test steps and folders to ensure your automation remains clear, reusable, and business-relevant.
 
 ## Exercise 2.1 Adding Dynamic waits & Increasing Cardinality to re-use the attribute
 
@@ -30,6 +30,6 @@ Please find the image below.
 
 ## Summary
 
-You've now ...
+You’ve now improved your automated test by applying best practices that make it more stable, efficient, and maintainable. You learned how to use dynamic waits to handle page transitions smoothly, adjust cardinality for reusability, and rename test steps for better readability and business alignment.
 
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+Continue with the next step - [Exercise 3 - Excercise 3 ](../ex3/README.md)
