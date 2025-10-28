@@ -46,18 +46,19 @@ Let's say your test case steers a text box called Sales Organization , and you w
 <br>![](/exercises/ex4/images/CALM_DS_07.png)
 
 In the subsequent dialog, select Prefill expression values. Then, define the data you want to link.
-<br>![](/exercises/ex4/images/CALM_DS_09.png
+<br>![](/exercises/ex4/images/CALM_DS_09.png)
 
 Specify your data set or subset, as well as the column that contains the data. 
-<br>![](/exercises/ex4/images/CALM_DS_10.png
+<br>![](/exercises/ex4/images/CALM_DS_10.png)
 
 Select Prefill values.
 
 To finalize the link, select Apply.
 <br>![](/exercises/ex4/images/CALM_DS_08.png)
+
 You can also directly enter these values by using the syntax : **{TDM[Subset][ColumnName]}
 **
-And that's it! Your test data is now linked to this particular test action.
+And that's it! Your test data is now linked to this particular test action.<br>![](/exercises/ex4/images/CALM_DS_11.png)
 
 
 
