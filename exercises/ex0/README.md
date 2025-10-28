@@ -24,4 +24,4 @@ Click to open [SAP Cloud ALM](https://btm163-7rq549xc.eu10-004.alm.cloud.sap/lau
 
 ## Summary
 
-Now you are already logged into SAP Cloud ALM. You can now continue to [Exercise 1 - Create an automated test case with TTA from SAP Cloud ALM](../ex1/README.md)
+Now you are already logged into SAP Cloud ALM. You can now continue with [Exercise 1 - Create an automated test case with TTA from SAP Cloud ALM](../ex1/README.md)
