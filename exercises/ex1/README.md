@@ -77,6 +77,8 @@ Save your script on the upper right with a click on button **Save**
 4. Under **Modules** tab on the left panel, search for your newly created module *XXX S/4HANA Fiori Login*. Click on + icon next to the module and move it below the *Launch Fiori* step.
     <br>![](/exercises/ex1/images/TTA_Add_Module_Login.png)
 5. Enter the value of the user and the password and set the Data type for password to “Password” for the encryption. Select *'{Click}* as value for the Logon button.
+    - **User:** BTM163-XXX *(replace XXX with your assigned user number)*
+    - **Password:** Teched2025
     <br>![](/exercises/ex1/images/TTA_Enter_Login_Data.png)
 6. Click on **Save**, select the Fiori Login step and click on button **Run** to run only these steps for a dry run until login. You need to focus on the S/4HANA logon window for this.
 7. Once login is completed, leave the browser window open - you need it for the next exercise.
