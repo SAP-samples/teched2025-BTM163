@@ -1,7 +1,7 @@
 
 # (Optional) Exercise 4 - Advanced features of TTA 
 
-In this exercise, ...
+In this optional exercise, you will explore advanced features of Tricentis Test Automation (TTA) that help improve test reusability and maintainability. You’ll learn how to create Reusable Test Blocks to standardize common processes across multiple test cases and how to manage Test Data Sets to store, update, and dynamically use data in the cloud. These advanced capabilities will help you reduce test maintenance and streamline large-scale automation scenarios.
 
 ## Exercise 4.1 Reusable Test Blocks
 
@@ -65,7 +65,6 @@ Repeat the same process for all the values you want to flow from Test Data Set (
 
 ## Summary
 
-You've now ...
+You’ve now explored the advanced capabilities of Tricentis Test Automation for SAP, learning how to create Reusable Test Blocks for modular automation and how to leverage Test Data Sets for dynamic, cloud-based data handling. By using these features, you can make your automated tests more scalable, adaptable, and easier to maintain.
 
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
-
+# Congratulation to finish all exercises!
