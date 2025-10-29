@@ -23,7 +23,7 @@ In this exercise, you will extend your automation by creating a new recording fo
 15. Capture the next screen <br>![](/exercises/ex3/images/CALM_SO_15.png)<br>
 16. Search & Add this module to the folder. Here we are going to use the Sales Quotation buffered in the previous process<br>
       In last step of previous exercise we stored the Sales Quotation value in “QuotationID”<br>
-      {B[Buffer Name]}- is the syntax to re-use the stored buffered in the test step<br>
+      **{B[Buffer Name]}**- is the syntax to re-use the stored buffered in the test step<br>
       These buffers are temporarily stored for the session across the workspace.<br>
       Test step should appear as below<br>
       In Sales order type text drop down box use the option available in Value column of the test step and select the value as below.<br>![](/exercises/ex3/images/CALM_SO_16.png)<br>
