@@ -34,7 +34,7 @@ In this exercise, you will extend your automation by creating a new recording fo
 21. In Identify by Index Pane in the right select the check, now the control will be unique. Remove the Sales order number from the name of the control to make it flexible. and save the module <br>![](/exercises/ex3/images/CALM_SO_21.png)<br>
 22. Add the module as the test step and fill the value as below.
 Here we need to save the Sales Order number for further process or may be to next test case 
-So the {XB[SalesOrderNumber]} has been added in the place of Sales order number displayed in the screen and the action mode as Verify. This will verify the pattern and store the value.(/exercises/ex3/images/CALM_SO_22.png)<br>
+So the {XB[SalesOrderNumber]} has been added in the place of Sales order number displayed in the screen and the action mode as Verify. This will verify the pattern and store the value.<br>![](/exercises/ex3/images/CALM_SO_22.png)<br>
 
 
 
