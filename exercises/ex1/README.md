@@ -67,7 +67,7 @@ Save your script on the upper right with a click on button **Save**
 7. Capture the fields *User Name*, *Password* and the button *Log On*. Mark the title of the Log On button more dynamic and unique and rename the module accordingly so that you can easily find your own module later in the module area (e.g. *XXX S/4HANA Fiori Login* (replace XXX by your user number)
    <br>![](/exercises/ex1/images/TTA_Capture_Login&Rename.png)
 
-8. Click on **Finish Screen** and close the scanning.
+8. Click on **Finish Screen** and close the scanning (Close XScan window). 
 
 ## Exercise 1.5 - Creating Login flow as Precondition
 
