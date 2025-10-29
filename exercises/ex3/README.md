@@ -17,7 +17,7 @@ In this exercise, you will extend your automation by creating a new recording fo
 9. In Manage Sales Order screen, Expand the Create with reference drop down <br>![](/exercises/ex3/images/CALM_SO_08.png)<br>
 10. Capture this screen by using Select on Screen option in the Scan window <br>![](/exercises/ex3/images/CALM_SO_09.png)<br>
 11. Search for the module and jump to the module. Module will open in new tab <br>![](/exercises/ex3/images/CALM_SO_10.png)<br>
-12. Click on the icon with the six dots and move the Create with Reference button to the top.<br>![](/exercises/ex3/images/CALM_SO_11.png)<br>![](/exercises/ex3/images/CALM_SO_12.png)<br>
+12. Click on the icon with the six dots and move the Create with Reference button to the top and save it.<br>![](/exercises/ex3/images/CALM_SO_11.png)<br>![](/exercises/ex3/images/CALM_SO_12.png)<br>
 13. Go back to the Test case tab and add this module to the Create Sales Order folder <br>![](/exercises/ex3/images/CALM_SO_13.png)<br>
 14: Pass the Values in test step as below <br>![](/exercises/ex3/images/CALM_SO_14.png)<br>
 15. Capture the next screen <br>![](/exercises/ex3/images/CALM_SO_15.png)<br>
