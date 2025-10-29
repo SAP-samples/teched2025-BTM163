@@ -82,8 +82,9 @@ Save your script on the upper right with a click on button **Save**
     - **Password:** Teched2025
     - **Logon:** {Click}
     <br>![](/exercises/ex1/images/TTA_Enter_Login_Data.png)
-6. Click on **Save**, select the Fiori Login step and click on button **Run** to run only these steps for a dry run until login. You need to focus on the S/4HANA logon window for this.
-7. Once login is completed, leave the browser window open - you need it for the next exercise.
+6. Click on **Save**,
+7. Select specifically only the Fiori Login step and click on button **Run** to run only these steps for a dry run until login. You need to focus on the S/4HANA logon window for this.
+8. Once login is completed, leave the browser window open - you need it for the next exercise.
 
 ## Exercise 1.6 - Creating Modules for Application search in Fiori homepage
 
