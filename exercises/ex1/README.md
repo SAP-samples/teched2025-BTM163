@@ -90,15 +90,9 @@ Capture the fields *User Name*, *Password* and the button *Log On*, by just clic
 8. Once login is completed, leave the browser window open - you need it for the next exercise.
 9. Close the unnecessary windows in S/4 system like Tour or to remember the login.
 
-## Exercise 1.6 - Creating Modules for Application search in Fiori homepage
+## Exercise 1.6 - Use prepared Testing Block for your test script
 
-1. Click on *Create Module* button on the top left menu. In Scan application screen, select the S/4HANA screen.
-2. Capture the Search button, rename it to *XXX Click on Search* (replace XXX with your user number) and save the module and close XScan application.
-3. Search for the module in the test case screen and add.
-4. Enter {Click} as value for the OpenSearch field and run this step to click on the Search field.
-5. Repeat the steps 1-3 for the search field (name: *XXX Search for Application in Fiori Home page* (replace XXX with your user number).) 
-6. Repeat the steps 1-3 for tile **Manage Sales Quotation** (name: *XXX Manage Sales Quotation -Tile* (replace XXX with your user number)).
-7. Repeat the steps 1-3 for button **Create Quotation** in the screen (name: *Manage Sales Quotation - Home Screen*) and save.
+# 1. Enter info here!!!!!
    <br>![](/exercises/ex1/images/TTA_Quot_Start.png)
 
 
