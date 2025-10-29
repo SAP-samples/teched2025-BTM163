@@ -9,7 +9,7 @@ In this exercise, you will extend your automation by creating a new recording fo
 2. Hover over the **Search for the Application in Fiori Home Page** and Click on the  (3 dots) in the Create Sales Quotation folder<br>![](/exercises/ex3/images/CALM_SO_02.png)
 
 3. Select **Duplicate** option <br>![](/exercises/ex3/images/CALM_SO_03.png)<br>
-4. Hover over the duplicated step and click on the icon with the six dots and move the test step to **Create Sales Order** <br>![](/exercises/ex3/images/CALM_SO_04.png)<br>
+4. Hover over the duplicated step and click on the icon with the six dots and move the test step to **Create Sales Order** folder <br>![](/exercises/ex3/images/CALM_SO_04.png)<br>
 5. The folders **Create Sales Quotation** and **Create Sales Order** should appear below the folder **Process**<br>
 6. Change value in the **Search in Apps** text box to *Manage Sales Orders* <br>![](/exercises/ex3/images/CALM_SO_05.png)<br>
 7. Capture the Search results screen <br>![](/exercises/ex3/images/CALM_SO_06.png)<br>
