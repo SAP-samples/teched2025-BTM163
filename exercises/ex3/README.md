@@ -38,14 +38,6 @@ So the {XB[SalesOrderNumber]} has been added in the place of Sales order number 
 
 
 
-
-
-
-
-
-## Exercise 3.2 Handover Quotation Number from Quotation Creation to Sales Order Creation
-
-
 ## Summary
 
 You’ve now created a new automated recording for Sales Order creation with Quotation Reference and learned how to reuse and adapt existing steps efficiently. By handing over the quotation number dynamically between test cases, you’ve established a data-driven link that supports end-to-end business process automation across multiple test scenarios.
