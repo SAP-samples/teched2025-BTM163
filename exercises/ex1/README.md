@@ -71,26 +71,32 @@ Capture the fields *User Name*, *Password* and the button *Log On*, by just clic
    <br>![](/exercises/ex1/images/TTA_Capture_Login&Rename.png)
 
 9. Click on **Finish Screen** and close the scanning (Close XScan window).
-10. In the S/4HANA system, confirm that you never want to save your password.
+10. In the S/4HANA system, confirm that you never want to save your password. Leave the S/4HANA browser window open. We are going to build on that.
     <br>![](/exercises/ex1/images/TTA_NeverSave_PW.png)
 
 ## Exercise 1.5 - Creating Login flow as Precondition
 
-1. Under **Standard objects** tab on the left panel, search for *OpenURL*, click on + icon next to the module as shown to add it to the test case.
-2. Move the step under the folder **Precondition** and edit the name of the Test step to “Launch Fiori”.
+1. Switch back to the browser window *Builder | Default | Tricentis Tosca*. Under **Standard objects** tab on the left panel, search for *OpenURL*, click on + icon next to the module as shown to add it to the test case.
+
+2. Move the step *OpenURL* under the folder **Precondition** 
+    - Hold curser over the step, on the very left of the line, 6 dots appear
+    - Hold left mouse click to move
+ 
 3. Copy the full URL of S/4HANA system and enter that as value for URL.
     <br>![](/exercises/ex1/images/TTA_Module_OpenURL.png)
-4. Under **Modules** tab on the left panel, search for your newly created module *XXX S/4HANA Fiori Login*. Click on + icon next to the module and move it below the *Launch Fiori* step.
+    
+4. Edit the name of the Test step *OpenURL* to “Launch Fiori”.
+5. Under **Modules** tab on the left panel, search for your newly created module *XXX S/4HANA Fiori Login*. Click on + icon next to the module and move it below the *Launch Fiori* step.
     <br>![](/exercises/ex1/images/TTA_Add_Module_Login.png)
-5. Enter the value of the user and the password and set the Data type for password to “Password” for the encryption. Select *'{Click}* as value for the Logon button.
+6. Enter the value of the user and the password and set the Data type for password to “Password” for the encryption. Select *'{Click}* as value for the Logon button.
     - **User:** BTM163-XXX *(replace XXX with your assigned user number)*
     - **Password:** Teched2025
     - **Logon:** {Click}
     <br>![](/exercises/ex1/images/TTA_Enter_Login_Data.png)
-6. Click on **Save**,
-7. Select specifically only the Fiori Login step and click on button **Run** to run only these steps for a dry run until login. You need to focus on the S/4HANA logon window for this.
-8. Once login is completed, leave the browser window open - you need it for the next exercise.
-9. Close the unnecessary windows in S/4 system like Tour or to remember the login.
+7. Click on **Save**,
+8. Select specifically only the Fiori Login step and click on button **Run** to run only these steps for a dry run until login. You need to focus on the S/4HANA logon window for this.
+9. Once login is completed, leave the browser window open - you need it for the next exercise.
+10. Close the unnecessary windows in S/4 system like Tour or to remember the login.
 
 ## Exercise 1.6 - Use prepared Testing Block for your test script
 
