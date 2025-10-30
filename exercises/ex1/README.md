@@ -120,19 +120,23 @@ Capture the fields *User Name*, *Password* and the button *Log On*, by just clic
 
 ## Exercise 1.7 - Record steps for Quoation creation
 
-1. Switch back to your Builder (Tosca) and click on button **Create Module**, select Web Application, select the S/4HANA system and click on **Scan**.
+1. Switch back to your Builder (Tosca) and click on button **Create Module**, select Web Application, select the S/4HANA system and click on **Scan** (as shown in [Exercise 1.4](/exercises/ex1/README.md#exercise-14---capturing-the-login-screen-fields-attributes-of-s4hana-system) )
 2. Select the following controls on this page:
-    <br> **Quotation Type, Sales Organization, Distribution Channel, Division**
-3. Select the *(iframe) Application*; the properties of it appear on the right side. Scroll down to the property **Id** and change it to “__container*-iframe”. The “*” is needed to make the property flexible because the number changes whenever the iframe is refreshed or loaded.
-4. Remember the module name and save the module.
-5. Add this module now to the test case and insert the following values in the test step
+   <br> **Input Fields:** Quotation Type, Sales Organization, Distribution Channel, Division
+   <br> **Buttons:** Continue
+   <br> Rename the module e.g. *XXX - Create Quotation (Header Data)*, click on **Finish Screen** and close Xscan.
+   <br>![](/exercises/ex1/images/TTA_Quot_Capture_Header.png)
+<!--- 3. Select the *(iframe) Application*; the properties of it appear on the right side. Scroll down to the property **Id** and change it to “__container*-iframe”. The “*” is needed to make the property flexible because the number changes whenever the iframe is refreshed or loaded.'' --->
+4. Add this module now to the test case, move it the last position in folder *Process* and insert the following values in the test step
   - **Quotation Type:** QT
   - **Sales Organization:** 1710
   - **Distribution Channel:** 10
-6. “X” can be used instead of {Click} for Buttons & Links.
+  - **Division:** 00
+  - **Continue:** {Click}
+5. Remember: “X” can be used instead of {Click} for values of Buttons & Links.
   <br>![](/exercises/ex1/images/TTA_Quot_Entry_Data.png)
-7. Do a dry run for this test step.
-8. Once the next page is loaded, follow the process of creating a new module for the next screen (you know already how it works :) )
+6. Run only this test step (just select the step *C* and click **Run**)
+7. Once the next page is loaded, follow the process of creating a new module for the next screen (you know already how it works :) )
 <br> - Click on Create Module button
 <br> - Select Web Application
 <br> - Select the browser window with the S/4HANA system
@@ -140,10 +144,10 @@ Capture the fields *User Name*, *Password* and the button *Log On*, by just clic
     - **Input Fields:** Sold-to-Party, Ship-to-Party, Cust. Reference, Cust. Ref. Date, Valid To
     - **Tables:** All Items
     - **Buttons:** Save, Cancel
-9. Select the (iframe) for *Application* and scroll the properties on the right side up to *Id'* property
-10. Edit the *Id* property to “__container*-iframe” to make it independent
-11. Save the module. Remember the name of the modules to search later for it.
-12. Add the new module to the test case and insert the following values to the step:
+10. Select the (iframe) for *Application* and scroll the properties on the right side up to *Id'* property
+11. Edit the *Id* property to “__container*-iframe” to make it independent
+12. Save the module. Remember the name of the modules to search later for it.
+13. Add the new module to the test case and insert the following values to the step:
     - **Sold-to-Party:** USCU-L-210
     - **Ship-to-Party:** USCU-L-210
     - **Cust. Reference:** XXX-Test Automation Ref *(replace XXX by your user number)*
