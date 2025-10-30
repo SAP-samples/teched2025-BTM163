@@ -71,8 +71,6 @@ Capture the fields *User Name*, *Password* and the button *Log On*, by just clic
    <br>![](/exercises/ex1/images/TTA_Capture_Login&Rename.png)
 
 9. Click on **Finish Screen** and close the scanning (Close XScan window).
-10. In the S/4HANA system, confirm that you never want to save your password. Leave the S/4HANA browser window open. We are going to build on that.
-    <br>![](/exercises/ex1/images/TTA_NeverSave_PW.png)
 
 ## Exercise 1.5 - Creating Login flow as Precondition
 
@@ -95,8 +93,10 @@ Capture the fields *User Name*, *Password* and the button *Log On*, by just clic
     <br>![](/exercises/ex1/images/TTA_Enter_Login_Data.png)
 7. Click on **Save**,
 8. Select specifically only the Fiori Login step and click on button **Run** to run only these steps for a dry run until login. You need to focus on the S/4HANA logon window for this.
+    <br>![](/exercises/ex1/images/TTA_SelectStep_Run.png)
 9. Once login is completed, leave the browser window open - you need it for the next exercise.
-10. Close the unnecessary windows in S/4 system like Tour or to remember the login.
+10. Close the unnecessary windows in S/4 system like Tour and confirm that you **Never** want to save your password. Leave the S/4HANA browser window open. We are going to build on that.
+    <br>![](/exercises/ex1/images/TTA_NeverSave_PW.png)
 
 ## Exercise 1.6 - Use prepared Testing Block for your test script
 
