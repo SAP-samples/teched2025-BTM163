@@ -155,14 +155,21 @@ Capture the fields *User Name*, *Password* and the button *Log On*, by just clic
     - **Quantity:** 2
     - **Save:** X
   <br>![](/exercises/ex1/images/TTA_Quotation_Ready2.png)
+
+10. Select the step for entering Details Data for Quotation and click Run. Lets the script do the work until a pop-up appear.
    
 ## Exercise 1.8 - Rescan Module
-1. After Quotation has been successfully saved, click on the last created module (Details of Quotation) and jump to the module
- <br>![](/exercises/ex1/images/TTA_Jump_Module.png)
-2. Click on Rescan and scan the Save Button in the dialog window
-3. Save your changes, go back to your test steps and click refresh
-4. Set as value for the save button a "X"
-5. Run the test step and repeat from step 1 to rescan the SAP Statusbar to capture the success message on the bottom left corner.
+1. After Quotation was not able to be successfully saved, we need to rescan the page, because now we want to click on button save again.
+2. Switch back to your Builder (Tosca), click on the last created module (*XXX - Create Quotation (Details Data)*) and click onjump to the module
+ <br>![](/exercises/ex1/images/TTA_Jump_Module2.png)
+3. Click on Rescan and scan the Save Button in the dialog window
+4. Save your changes, go back to your module and click refresh to see the newly captured item.
+  <br>![](/exercises/ex1/images/TTA_Quot_Details_Rescan1.png)
+5. Switch to your test script, click refresh to see the new item and set as value for the save button a "X"
+6. Run the test step and repeat from step 3 to rescan also the SAP Statusbar to capture the success message on the bottom left corner (we need the Quotation number later to create a Sales Order). Move the SAP Statusbar message in the module themselve to the last position
+7. Finally, it should look like in the screenshot below.
+ <br>![](/exercises/ex1/images/TTA_Quot_Details_Rescan2.png)
+8. Run the test step
 
 ## Exercise 1.9 - Dynamic Placeholders & Buffers for future use (e.g. to use it on following test case)
 
