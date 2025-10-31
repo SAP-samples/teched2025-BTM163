@@ -30,6 +30,8 @@ In this exercise, you will apply best practices for automation using Tricentis T
 
 As per the best practices, naming of Test steps should be Business relevant.
 Please find the image below.
+    <br>![](/exercises/ex2/images/TTA_Business_Relevance.png)
+
 
 ## Summary
 
