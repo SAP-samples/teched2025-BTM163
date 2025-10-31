@@ -12,17 +12,18 @@ In this exercise, you will apply best practices for automation using Tricentis T
 3. Change the value of Cardinality to 1-n to increase the occurence in this test step. This step should now appear several times successively
 <br>![](/exercises/ex2/images/TTA_Cardinality.png) Save the module & Close the tab.
 
-4. Save the Test case and refresh the page.For the first appearance of it add:
+4. Go back to Test case tab (Usually you will land here after you close the module Tab).Save the Test case and refresh the page.
+   Open the Process folder and select the first step.For the first appearance of **searchFieldinShell-select** field add:
    - **Value:** *Apps * (please remove the space between Apps and the asterisk -> not possible in GitHub ;-) )
    - **Action mode:** WaitOn
 5. For the second appearance of **searchFieldinShell-select** add:
    - **Value:** Apps
    <br>![](/exercises/ex2/images/TTA_WaitOn.png)
   
-6. Trail run this test step to check the stability and flow check. Once done, add the waits for the next page (Results page).
-7. For this, replace in the second step of folder **Process**, which should be **Search for results** the field **Results**:
+6. Trail run this test step to check the stability and flow check. Once done, add the dynamic waits for the next page (Results page).
+7. For this, replace in the second step (**Search for results** ) of folder **Process**, which should be the field **Results**:
    - **Value:** *Result * (please remove the space between Apps and the asterisk -> not possible in GitHub ;-) )
-   - **Action mode:** WaitOn
+   - **Action mode:** WaitOn 
    
    As mentioned before, Dynamic wait is recommended every time when navigating to a new page (this includes dialog boxes, dynamic menus).
 
