@@ -21,9 +21,15 @@ In this exercise, you will apply best practices for automation using Tricentis T
    <br>![](/exercises/ex2/images/TTA_WaitOn.png)
   
 6. Trail run this test step to check the stability and flow check. Once done, add the dynamic waits for the next page (Results page).
-7. For this, replace in the second step (**Search for results** ) of folder **Process**, which should be the field **Results**:
+7. For this, Select the the second step (**Search for results** ) of folder **Process**, which should have the field **Results**: (If there is no **Results** field not rescan it add the field.
+   Hover the the this step Click on 3 dots , jump to the module. Modules opens in a new tab.
+   Select the **Result** button. Change the Text Property to **Result***. Save the module & Close the module tab
+   <br>![](/exercises/ex2/images/Results.png)
+   Navigate to Test case tab and set the value as below
+   
    - **Value:** *Result * (please remove the space between Apps and the asterisk -> not possible in GitHub ;-) )
-   - **Action mode:** WaitOn 
+   - **Action mode:** WaitOn
+   - <br>![](/exercises/ex2/images/Results1.png)
    
    As mentioned before, Dynamic wait is recommended every time when navigating to a new page (this includes dialog boxes, dynamic menus).
 
