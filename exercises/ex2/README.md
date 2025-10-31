@@ -29,8 +29,10 @@ In this exercise, you will apply best practices for automation using Tricentis T
 ## Exercise 2.2 Naming of Each Test steps & Folders should be Business Relevant
 
 As per the best practices, naming of Test steps should be Business relevant.
-Please find the image below.
+Please find the image below and rename your script like shown.
     <br>![](/exercises/ex2/images/TTA_Business_Relevance.png)
+
+This ensures, that also others can understand the flow of the test script, without looking into the details.
 
 
 ## Summary
