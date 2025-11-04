@@ -114,7 +114,7 @@ Capture the fields *User Name*, *Password* and the button *Log On*, by just clic
 3. Select only the step *App Navigation via Tiles* and click on **Run**.
    <br>![](/exercises/ex1/images/TTA_RTB_Run.png)
 
-3. After the run was successfull, leave the S/4HANA system as it is. Switch now back to your Builder (Tosca) and open the Modules again. Add the module "** Template** Click Create Quotation" to add it to your script. You see, you can build your test case from different sources.
+3. After the run was successfull, leave the S/4HANA system as it is. Switch now back to your Builder (Tosca) and open the **User Assets** tab again. Search for the module "** Template** Click Create Quotation" to add it to your script. You see, you can build your test case from different sources.
    <br>![](/exercises/ex1/images/TTA_Add_TemplateModule.png)
 
 4. Move the module also to **Process** folder, under the step *App Navigation via Tiles* and enter an "X" as value for Create Quoation button. It is an alternative of using {Click} as value. Select only the "** Template** Click Create Quotation" and click on **Run** to run only this step in the target system.
