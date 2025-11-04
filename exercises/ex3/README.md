@@ -4,7 +4,7 @@ In this exercise, you will extend your automation by creating a new recording fo
 
 ## Exercise 3.1 Record process "Creating a Sales Order with Sales Quotation Reference"
 
-1. Create a Test step folder for "Create Sales Quotation" under Process and in the left panel, click on tab User assets. Click on + for App Navigation via Tiles to add it to your script., like shown in the screenshot.
+1. Create a Test step folder for "Create Sales Quotation" under Process and in the left panel, click on tab User assets. Search for **App Navigation via Tiles** Click on + icon to add it to your script., like shown in the screenshot.
 <br>![](/exercises/ex3/images/CALM_SO_01.png)
 
 2. Move your Reusable Test Block under the Create Sales Order folder and enter a X as value for Manage Sales Order, as shown in the screenshot below.
