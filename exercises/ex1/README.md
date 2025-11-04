@@ -78,7 +78,7 @@ Capture the fields *User Name*, *Password* and the button *Log On*, by just clic
 
 ## Exercise 1.5 - Creating Login flow as Precondition
 
-1. Switch back to the browser window *Builder | Default | Tricentis Tosca*. Under **Standard objects** tab on the left panel, search for *OpenURL*, click on + icon next to the module as shown to add it to the test case.
+1. Switch back to the browser window *Builder | Default | Tricentis Tosca*. Under **Standard objects** tab on the left panel, search for *OpenURL*, Hover over the OpenURL module and click on + icon next to the module as shown to add it to the test case.
 
 2. Move the step *OpenURL* under the folder **Precondition** 
     - Hold curser over the step, on the very left of the line, 6 dots appear
