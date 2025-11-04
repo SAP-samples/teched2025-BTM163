@@ -105,7 +105,7 @@ Capture the fields *User Name*, *Password* and the button *Log On*, by just clic
 ## Exercise 1.6 - Use prepared Testing Block for your test script
 
 1. Switch back to your test script. For saving time of recording modules, we have prepared for you a Reusable Test Block, which you can use directly inside your test script. We are going to show you later, how to create such Reusable Test Blocks.
-2. In the left panel, click on tab **Reusable test steps**. Click on + for *App Navigation via Tiles* to add it to your script.
+2. In the left panel, click on tab **User assets**. Click on + for *App Navigation via Tiles* to add it to your script.
    <br>![](/exercises/ex1/images/TTA_Add_ReusableTB.png)
 
 3. Move your Reusable Test Block under the *Process* folder and enter a X as value for Manage Sales Quotations, as shown in the screenshot below.
