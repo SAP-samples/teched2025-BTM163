@@ -56,7 +56,7 @@ To create one, switch back to TTA tab and click on tab **Modules** in the left p
 
    Close these Launcher Popups if you find it ( It only appears one time after the launcher installation)
     <br>![](/exercises/ex1/images/Launcher Popup1.png)
-    <br>![](/exercises/ex1/images/Launcher Popup1.png) 
+    <br>![](/exercises/ex1/images/Launcher Popup2.png) 
 
 4. After clicking Create Module button, below pop-up appears. Select the Web Application from the list (this screen is to select the type of application e.g. Web, Desktop, etc…)
     <br>![](/exercises/ex1/images/TTA_Scan_App_Popup.png)
