@@ -4,7 +4,7 @@ In this exercise, you will extend your automation by creating a new recording fo
 
 ## Exercise 3.1 Record process "Creating a Sales Order with Sales Quotation Reference"
 
-1.Create a Test step folder and name it as "Create Sales Order" under Process.<br>![](/exercises/ex3/images/CALM_SO_01.png)
+1.Create a Test step folder for "Create Sales Quotation" and move all previous steps for the creation of the quoation in that folder. Create another folder and name it as "Create Sales Order" under Process, like shown in the screenshot.<br>![](/exercises/ex3/images/CALM_SO_01.png)
 
 2. Hover over the **Search for the Application in Fiori Home Page** and Click on the  (3 dots) in the Create Sales Quotation folder<br>![](/exercises/ex3/images/CALM_SO_02.png)
 
