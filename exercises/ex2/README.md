@@ -7,8 +7,8 @@ In this exercise, you will apply best practices for automation using Tricentis T
 **Dynamic waits** are used to wait for the specific field to appear before doing any actions. It is recommended to use Dynamic wait (WaitOn) while moving from one page to next, dropdown to appear, search results to appear. In our test case, dynamic wait can be placed on All dropdown.
 **Cardinality**: We need this *All* dropdown should appear twice in the test step. Instead of duplicating (as it will increase the memory space), TTA have a feature to increase the occurrence.
 
-1. Navigate to the first step of folder **Process**. Hover over it and click on 3 dots. Select jump to module option.
-2. Module is now opened in a new tab Select the **searchFieldinShell-select** and navigate in the properties of it to **Cardinality**.
+1. Navigate to the **Create Quotations (Header Data)** step under **Process** folder. Hover over it and click on 3 dots. Select jump to module option.
+2. Module is now opened in a new tab Select the **Create Quotations** button and on the right side navigate in the properties of it to **Cardinality**.
 3. Change the value of Cardinality to 1-n to increase the occurence in this test step. This step should now appear several times successively
 <br>![](/exercises/ex2/images/TTA_Cardinality.png) Save the module & Close the tab.
 
