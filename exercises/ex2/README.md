@@ -16,7 +16,7 @@ In this exercise, you will apply best practices for automation using Tricentis T
    Open the Process folder and select the first step.For the first appearance of **Create Quotations** button add:
    - **Value:** Create Quotations (Same as the button name as we are waiting & verifying the text here) )
    - **Action mode:** WaitOn
-   - 
+     
 5. Fill the other values as per the requirement
    <br>![](/exercises/ex2/images/TTA_WaitOn.png)
   
